@@ -8,6 +8,7 @@ import { PortfolioStrategy } from './sections/PortfolioStrategy'
 import { Differentiators } from './sections/Differentiators'
 import { ESGImpact } from './sections/ESGImpact'
 import { Pipeline } from './sections/Pipeline'
+import { Leadership } from './sections/Leadership'
 import { InvestorProposition } from './sections/InvestorProposition'
 import { Contact } from './sections/Contact'
 
@@ -24,6 +25,7 @@ function App() {
         <Differentiators />
         <ESGImpact />
         <Pipeline />
+        <Leadership />
         <InvestorProposition />
         <Contact />
       </main>

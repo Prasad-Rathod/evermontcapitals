@@ -3,6 +3,7 @@ export const navLinks = [
   { label: 'Strategy', href: '#strategy' },
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'ESG', href: '#esg' },
+  { label: 'Team', href: '#team' },
   { label: 'Investors', href: '#investors' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -202,6 +203,52 @@ export const pipeline = {
   ],
 }
 
+// ─── Leadership ────────────────────────────────────────────────────────────────
+export const leadership = {
+  sectionLabel: 'Leadership Team',
+  headline: 'The Partners Behind the Platform',
+  description:
+    'A collective track record spanning multi-billion-dollar transactions, cross-border investments, and large-scale infrastructure delivery — operating at the intersection of capital and execution.',
+  featured: {
+    name: 'Dr. B D Sharma',
+    initials: 'BS',
+    role: 'Senior Technical Advisor',
+    roleDetail: 'Clean Energy & Renewable Infrastructure',
+    bio: 'With over 50 years of distinguished experience spanning IIT research, BHEL, TERI, and JBM Group, Dr. Sharma is one of India\'s foremost authorities on solar energy and renewable infrastructure. As former CTO, Executive Vice President, and Director of the Renewable Division at JBM Group, he oversaw 120 MW+ of commissioned solar assets, BESS integration, and India\'s first solar-powered EV charging infrastructure. At BHEL, he established India\'s first fully automated amorphous silicon solar plant — dedicated to the nation by Prime Minister P.V. Narsimha Rao. As a TERI fellow, he completed RETREAT, India\'s first energy-efficient green building, dedicated by Prime Minister Atal Bihari Vajpayee. A UNDP fellow at NREL, Colorado, Dr. Sharma has visited over 35 international solar R&D establishments across the USA, Europe, and Japan. Senior IEEE Member and advisor to MNRE during the XI Plan.',
+    credentials: ['JBM Group (CTO & EVP)', 'BHEL', 'TERI Fellow', 'UNDP Fellow · NREL USA', 'IEEE Senior Member', 'MNRE Advisory Committee'],
+    education: 'PhD Physics · IIT Chennai  ·  DIIT · IIT Delhi',
+  },
+  members: [
+    {
+      name: 'Shyam Mishra',
+      initials: 'SM',
+      role: 'General Partner',
+      roleDetail: 'Private Equity & Global Investment Strategist',
+      bio: 'Seasoned PE General Partner with $3.2B+ in transaction and advisory experience across 21 countries. Former strategic roles at McKinsey & Company, Lazard, PwC, PayPal, and the Tata Group. Combines deep LP relationships with rigorous cross-border deal execution.',
+      credentials: ['McKinsey & Company', 'Lazard', 'PwC', 'PayPal', 'Tata Group'],
+      education: 'MBA (Finance) · NUS  ·  Advanced Master\'s · St. Gallen',
+    },
+    {
+      name: 'Mandeep Singh',
+      initials: 'MS',
+      role: 'Chief Operating Officer',
+      roleDetail: 'EPC & Infrastructure  ·  Finance & Execution',
+      bio: 'Chartered Accountant and ISB alumnus with deep expertise in EPC, infrastructure development, and construction contracting. Oversees end-to-end project execution, contract structuring, and operational scalability — ensuring investments translate into efficient on-ground delivery.',
+      credentials: ['Chartered Accountant', 'EPC & Infrastructure', 'Published Author'],
+      education: 'ISB Alumnus',
+    },
+    {
+      name: 'Cherukuri Rajesh',
+      initials: 'CR',
+      role: 'Corporate Strategy & Investor Relations',
+      roleDetail: 'Investment Banking  ·  Capital Markets',
+      bio: 'Recognised among the Top 10 Chief Strategy Officers in India (2022). ISB alumnus with a proven track record across investment banking, institutional investor relations, and capital markets. Drives corporate strategy, capital alignment, and portfolio value creation at the firm.',
+      credentials: ['Top 10 CSO India 2022', 'Orange Retail Finance', 'Zolo CEO\'s Office', 'ISB Alumnus'],
+      education: 'ISB Alumnus',
+    },
+  ],
+}
+
 // ─── Investor Proposition ──────────────────────────────────────────────────────
 export const investorProposition = {
   sectionLabel: 'Investor Proposition',
@@ -244,6 +291,7 @@ export const footer = {
     { label: 'Strategy', href: '#strategy' },
     { label: 'Portfolio', href: '#portfolio' },
     { label: 'ESG & Impact', href: '#esg' },
+    { label: 'Team', href: '#team' },
     { label: 'Investors', href: '#investors' },
     { label: 'Contact', href: '#contact' },
   ],
