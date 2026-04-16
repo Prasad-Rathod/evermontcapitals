@@ -53,11 +53,6 @@ export function PortfolioStrategy() {
               variants={staggerItem}
               className="group relative border border-gray-200 hover:border-[#c9a96e] bg-gray-50 hover:bg-white p-8 lg:p-10 transition-all duration-300 hover:shadow-xl overflow-hidden"
             >
-              {/* Large background number */}
-              <span className="absolute top-4 right-6 font-serif text-8xl text-gray-100 font-light leading-none pointer-events-none select-none group-hover:text-amber-50 transition-colors duration-300">
-                {i + 1}
-              </span>
-
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-5">
                   <span className="text-[#c9a96e] text-sm font-bold tracking-widest uppercase font-sans">

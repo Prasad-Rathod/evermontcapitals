@@ -231,7 +231,7 @@ export const leadership = {
     {
       name: 'Mandeep Singh',
       initials: 'MS',
-      role: 'Chief Operating Officer',
+      role: 'General Partner',
       roleDetail: 'EPC & Infrastructure  ·  Finance & Execution',
       bio: 'Chartered Accountant and ISB alumnus with deep expertise in EPC, infrastructure development, and construction contracting. Oversees end-to-end project execution, contract structuring, and operational scalability — ensuring investments translate into efficient on-ground delivery.',
       credentials: ['Chartered Accountant', 'EPC & Infrastructure', 'Published Author'],
@@ -240,7 +240,7 @@ export const leadership = {
     {
       name: 'Cherukuri Rajesh',
       initials: 'CR',
-      role: 'Corporate Strategy & Investor Relations',
+      role: 'General Partner',
       roleDetail: 'Investment Banking  ·  Capital Markets',
       bio: 'Recognised among the Top 10 Chief Strategy Officers in India (2022). ISB alumnus with a proven track record across investment banking, institutional investor relations, and capital markets. Drives corporate strategy, capital alignment, and portfolio value creation at the firm.',
       credentials: ['Top 10 CSO India 2022', 'Orange Retail Finance', 'Zolo CEO\'s Office', 'ISB Alumnus'],
